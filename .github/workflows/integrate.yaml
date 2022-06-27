@@ -102,3 +102,4 @@ jobs:
       - name: echo actor
         run: |
           echo ${{github.actor}}
+          echo ${{github.repository_owner}}
